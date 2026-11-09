@@ -38,6 +38,13 @@ export const metadata: Metadata = {
     title: "A5 Tecnologia | Balanças Toledo",
     description,
   },
+  icons: {
+    icon: [
+      { url: "/icon.svg", type: "image/svg+xml" },
+      { url: "/favicon.ico", sizes: "32x32" },
+    ],
+    apple: [{ url: "/apple-touch-icon.png", sizes: "180x180" }],
+  },
   robots: { index: true, follow: true },
 };
 
