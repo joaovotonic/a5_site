@@ -40,16 +40,18 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
-      { url: "/icon.svg", type: "image/svg+xml" },
-      { url: "/favicon.ico", sizes: "32x32" },
+      { url: "/icon.svg?v=a5", type: "image/svg+xml" },
+      { url: "/favicon.ico?v=a5", sizes: "any" },
+      { url: "/icon-192.png?v=a5", sizes: "192x192", type: "image/png" },
     ],
-    apple: [{ url: "/apple-touch-icon.png", sizes: "180x180" }],
+    apple: [{ url: "/apple-touch-icon.png?v=a5", sizes: "180x180" }],
+    shortcut: "/favicon.ico?v=a5",
   },
   robots: { index: true, follow: true },
 };
 
 export const viewport: Viewport = {
-  themeColor: "#eef0ed",
+  themeColor: "#0a5fb4",
   colorScheme: "light",
 };
 
@@ -59,6 +61,11 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       lang="pt-BR"
       className={`${geistSans.variable} ${geistMono.variable} ${display.variable} h-full antialiased`}
     >
+      <head>
+        <link rel="icon" href="/icon.svg?v=a5" type="image/svg+xml" />
+        <link rel="icon" href="/favicon.ico?v=a5" sizes="any" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png?v=a5" />
+      </head>
       <body className="min-h-full flex flex-col">{children}</body>
     </html>
   );
