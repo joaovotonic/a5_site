@@ -1,0 +1,1 @@
+﻿Fotos das lojas. Nomes: manaus.jpg, boa-vista.jpg, fortaleza.jpg (foto de cada loja); hero.jpg (foto principal da home, opcional); sobre.jpg (secao Quem somos, opcional).

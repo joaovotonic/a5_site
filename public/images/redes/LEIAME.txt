@@ -1,0 +1,1 @@
+﻿Fotos do Instagram/Facebook usadas no feed enquanto a API nao estiver configurada (qualquer nome, jpg/png/webp).

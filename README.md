@@ -1,36 +1,109 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# A5 Tecnologia — Balanças, Sistemas e Etiquetas
 
-## Getting Started
+Website institucional e catálogo comercial de alta performance para a **A5 Tecnologia**, revenda e assistência técnica autorizada especializada em pesagem comercial, automação, etiquetadoras, balanças industriais de piso e fatiadores profissionais.
 
-First, run the development server:
+Com unidades físicas em **Manaus (AM)** (Matriz Boulevard e Filial Joaquim Nabuco), **Boa Vista (RR)** e **Fortaleza (CE)**.
 
+---
+
+## 📸 Demonstração Visual
+
+### 1. Início / Hero Editorial
+Design minimalista e sofisticado com tipografia editorial, selos de homologação e chamada para ação rápida.
+
+![A5 Tecnologia — Início](docs/screenshots/hero.png)
+
+---
+
+### 2. Vitrine Simplificada na Página Inicial
+Exibição ágil dos principais equipamentos com modal de ficha técnica em 1 clique e botão de cotação direta no WhatsApp.
+
+![Vitrine de Equipamentos na Home](docs/screenshots/vitrine-home.png)
+
+---
+
+### 3. Catálogo Completo Multimarcas (`/catalogo`)
+Página dedicada com 43 equipamentos homologados pelo Inmetro, busca em tempo real e filtros por marca e segmento.
+
+![Catálogo Completo](docs/screenshots/catalogo.png)
+
+---
+
+### 4. Abertura de Chamado Externo & Suporte Técnico
+Central de atendimento com gerador rápido de ordem de serviço via WhatsApp para envio direto ao plantão técnico.
+
+![Chamado Externo e Suporte](docs/screenshots/suporte-chamados.png)
+
+---
+
+## 🚀 Principais Recursos
+
+- **Marcas & Equipamentos Integrados:**
+  - **Toledo do Brasil:** Família comercial Prix (3, 4, 5, 6, 7), bancada 9094 e balanças industriais de piso 2180 e 2124.
+  - **Balmak:** Linha touch EDGE, etiquetadoras Órion, comercial Quick/ONE, checkout PDV, piso BK e hospitalar BK-F.
+  - **Marte Científica:** Balanças semianalíticas (0,001g), analíticas (0,0001g) e de precisão com calibração interna motorizada.
+  - **Skymsen:** Linha profissional de fatiadores de frios e carnes automáticos e semiautomáticos em aço inox com conformidade NR-12.
+- **Área de Chamado Externo & Suporte:**
+  - Canal direto com o WhatsApp da assistência técnica `(92) 98528-0101` para atendimento in-loco e suporte ao software MGV 7.
+- **Rede de 4 Unidades Físicas:**
+  - **Matriz Manaus/AM:** Rua Comendador Clementino, 379 – Boulevard
+  - **Filial A5 Comércio Manaus/AM:** Av. Joaquim Nabuco, 186 – Centro
+  - **Unidade Boa Vista/RR:** Rua Cerejo Cruz, 964 – Centro
+  - **Unidade Fortaleza/CE:** Edifício Cidade, R. Padre Mororó, 862 - Térreo – Centro
+- **Desempenho & UX:**
+  - Next.js 16 com Turbopack (SSR e geração estática ultrarrápida).
+  - Rolagem fluida com Lenis Smooth Scroll e revelações suaves via Intersection Observer.
+  - Logo 100% vetorial em SVG e layout responsivo adaptado para celulares e desktops.
+  - Schema Markup estruturado (`LocalBusiness` e `AggregateRating` para SEO no Google).
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- **Framework:** [Next.js](https://nextjs.org/) (App Router, Turbopack)
+- **Linguagem:** TypeScript
+- **Estilização:** Tailwind CSS v4
+- **Scroll Suave:** `@studio-freight/lenis`
+- **Ícones & Vetores:** SVG personalizado
+
+---
+
+## 💻 Como Executar o Projeto
+
+### Pré-requisitos
+- [Node.js](https://nodejs.org/) (v18.18+ ou v20+)
+- npm, yarn ou pnpm
+
+### Instalação
+
+1. Clone o repositório:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/joaovotonic/a5_site.git
+cd a5_site
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Instale as dependências:
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Inicie o servidor de desenvolvimento:
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Abra [http://localhost:3000](http://localhost:3000) no seu navegador para ver o resultado.
 
-## Learn More
+### Compilação para Produção
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run build
+npm run start
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📄 Licença
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Propriedade privada de **A5 Tecnologia Balanças, Sistemas e Etiquetas Ltda.** Todos os direitos reservados.
+Toledo e Prix são marcas registradas da Toledo do Brasil Indústria de Balanças Ltda.

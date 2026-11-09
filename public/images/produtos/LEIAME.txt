@@ -1,0 +1,1 @@
+﻿Coloque aqui as fotos das balancas. Nome do arquivo = slug do produto, ex.: prix-3-fit.png, prix-3-plus.png, prix-4-uno.png, prix-4-due.png, prix-4-trend.png, prix-5.png, prix-6.png, prix-7.png, 9094.png, 2099.png (png/jpg/webp).
